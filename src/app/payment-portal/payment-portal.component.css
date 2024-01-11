@@ -1,0 +1,192 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f4f4f4;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.receipt-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.payment-container {
+
+    /* max-width: 1000px; */
+    max-width: 600px;
+    /* max-height: 600px; */
+
+    margin: 0px auto;
+
+    background-color: #fff;
+
+    padding: 30px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* overflow-y: auto;  */
+
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 30%;
+}
+ 
+
+.payment-method {
+
+    font-size: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.payment-details {
+
+    margin-bottom: 20px;
+    /* max-height: 400px; */
+
+}
+
+ 
+
+label {
+
+    font-weight: bold;
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+ 
+
+input[type="text"] {
+
+    width: 100%;
+
+    padding: 10px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    margin-bottom: 10px;
+
+}
+
+ 
+
+select {
+
+    width: 100%;
+
+    padding: 10px;
+
+    font-size: 16px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    margin-bottom: 20px;
+
+}
+
+ 
+
+.pay-button {
+
+    background-color: #4caf50;
+
+    color: white;
+
+    padding: 15px 130px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+
+    transition: background-color 0.3s ease;
+
+   
+
+}
+
+ 
+
+.pay-button:hover {
+
+    background-color: #45a049;
+
+}
+
+ 
+
+/* ... (previous styles) ... */
+
+ 
+
+.flex-container {
+
+    display: flex;
+
+}
+
+ 
+
+.half-width {
+
+    width: 50%;
+
+    margin-bottom: 20px;
+
+    padding-right: 10px;
+
+}
+
+.full-width {
+
+    width: 100%;
+
+    margin-bottom: 20px;
+
+    padding-right: 10px;
+
+}
+
+.bgcol
+{
+
+     background-image: url('src/assets/img/section-3-bg.jpg'); 
+
+    /* background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fabstract-wave-background-with-dynamic-effect-motion-illustration-blue-gold-color-trendy-gradients_181182-3277.jpg&tbnid=8ZQQMqQJ8zS3mM&vet=12ahUKEwj9uryGtIKCAxV9zaACHTlLADIQMygFegQIARB4..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fofficial-background&docid=gQ3ST59WK5DmhM&w=626&h=352&q=official%20background%20hd%20images%20&ved=2ahUKEwj9uryGtIKCAxV9zaACHTlLADIQMygFegQIARB4'); */
+    background-size: cover; /* This ensures the image covers the whole background */
+
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+    background-attachment: fixed; /* Fixed background when scrolling */
+
+}

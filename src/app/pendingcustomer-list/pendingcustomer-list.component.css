@@ -1,0 +1,43 @@
+.bgcol
+{
+
+     background-image: url('src/assets/img/section-3-bg.jpg'); 
+
+    /* background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Fabstract-wave-background-with-dynamic-effect-motion-illustration-blue-gold-color-trendy-gradients_181182-3277.jpg&tbnid=8ZQQMqQJ8zS3mM&vet=12ahUKEwj9uryGtIKCAxV9zaACHTlLADIQMygFegQIARB4..i&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fofficial-background&docid=gQ3ST59WK5DmhM&w=626&h=352&q=official%20background%20hd%20images%20&ved=2ahUKEwj9uryGtIKCAxV9zaACHTlLADIQMygFegQIARB4'); */
+    background-size: cover; /* This ensures the image covers the whole background */
+
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+    background-attachment: fixed; /* Fixed background when scrolling */
+
+}
+.table-container {
+
+    width: 100%;
+
+    overflow-x: auto;
+    
+
+  }
+
+  table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+    background-color: #1e3c72;
+    color: white;
+    /* background-color:white;
+    color: black; */
+
+  }
+
+  th, td {
+
+    border: 1px solid #0e2551;
+
+    padding: 8px;
+
+    text-align: left;
+
+  }
